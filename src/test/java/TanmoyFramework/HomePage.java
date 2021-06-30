@@ -45,6 +45,11 @@ public class HomePage extends base
 		fp.Email().sendKeys("xxx");
 		fp.SendIns().click();
 	}
+	@Test
+	public void test()
+	{
+		System.out.println("git push");
+	}
 	
 	@AfterTest
 	public void teardown()
