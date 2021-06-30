@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="TanmoyFramework.Listeners"/>
+  </listeners>
+  <test parallel="tests" name="Valodation(failed)">
+    <classes>
+      <class name="TanmoyFramework.HomePage">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- TanmoyFramework.HomePage -->
+      <class name="TanmoyFramework.validate">
+        <methods>
+          <include name="teardown"/>
+          <include name="basePageNavigation"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- TanmoyFramework.validate -->
+    </classes>
+  </test> <!-- Valodation(failed) -->
+</suite> <!-- Failed suite [Suite] -->

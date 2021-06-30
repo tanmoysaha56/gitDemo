@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="15964" started-at="2021-06-27T12:12:39Z" finished-at="2021-06-27T12:12:55Z">
+    <groups>
+    </groups>
+    <test name="Valodation" duration-ms="11771" started-at="2021-06-27T12:12:39Z" finished-at="2021-06-27T12:12:50Z">
+      <class name="TanmoyFramework.validate">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:TanmoyFramework.validate@7354b8c5]" name="initialize" is-config="true" duration-ms="11370" started-at="2021-06-27T17:42:39Z" finished-at="2021-06-27T17:42:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:TanmoyFramework.validate@7354b8c5]" name="basePageNavigation" duration-ms="172" started-at="2021-06-27T17:42:50Z" finished-at="2021-06-27T17:42:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="validateBannerTitle()[pri:0, instance:TanmoyFramework.validate@7354b8c5]" name="validateBannerTitle" duration-ms="48" started-at="2021-06-27T17:42:50Z" finished-at="2021-06-27T17:42:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateBannerTitle -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:TanmoyFramework.validate@7354b8c5]" name="teardown" is-config="true" duration-ms="163" started-at="2021-06-27T17:42:50Z" finished-at="2021-06-27T17:42:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TanmoyFramework.validate -->
+    </test> <!-- Valodation -->
+    <test name="Site Testing" duration-ms="15958" started-at="2021-06-27T12:12:39Z" finished-at="2021-06-27T12:12:55Z">
+      <class name="TanmoyFramework.HomePage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:TanmoyFramework.HomePage@2d9caaeb]" name="initialize" is-config="true" duration-ms="2357" started-at="2021-06-27T17:42:39Z" finished-at="2021-06-27T17:42:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TanmoyFramework.HomePage@2d9caaeb]" name="basePageNavigation" duration-ms="11040" started-at="2021-06-27T17:42:41Z" data-provider="getData" finished-at="2021-06-27T17:42:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonRestrictedUser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Non Restricted User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TanmoyFramework.HomePage@2d9caaeb]" name="basePageNavigation" duration-ms="2496" started-at="2021-06-27T17:42:52Z" data-provider="getData" finished-at="2021-06-27T17:42:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restrictedUser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Restricted User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:TanmoyFramework.HomePage@2d9caaeb]" name="teardown" is-config="true" duration-ms="53" started-at="2021-06-27T17:42:55Z" finished-at="2021-06-27T17:42:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TanmoyFramework.HomePage -->
+    </test> <!-- Site Testing -->
+  </suite> <!-- Suite -->
+</testng-results>
