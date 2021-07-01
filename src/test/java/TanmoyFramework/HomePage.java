@@ -50,6 +50,11 @@ public class HomePage extends base
 	{
 		System.out.println("git push");
 	}
+	@Test
+	public void test2()
+	{
+		System.out.println("git branch");
+	}
 	
 	@AfterTest
 	public void teardown()
